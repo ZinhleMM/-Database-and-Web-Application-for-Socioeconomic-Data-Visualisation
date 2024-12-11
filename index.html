@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        <link rel="stylesheet" href="main.css">
+        </title>    
+    </head>
+    <body>
+        <header>    
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/maps">Maps</a></li>
+                    <li><a href="/charts">Charts</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <div id="map-container"></div>
+            <aside id="summary-panel"></aside>
+            <section id="charts-section">
+                <canvas id="line-chart"></canvas>
+                <canvas id="bar-chart"></canvas>
+            </section>
+        </main>
+        <section id="filters">
+            <form>
+              <label for="region">Region:</label>
+              <select id="region">
+                <option value="all">All</option>
+                <option value="ZAEC">Eastern Cape</option>
+                <option value="ZAWC">Western Cape</option>
+                <!-- Add other provinces -->
+              </select>
+              <label for="income">Income Range:</label>
+              <input type="range" id="income" min="0" max="50000" step="1000">
+              <label for="hunger-level">Hunger Level:</label>
+              <input type="checkbox" id="hunger-level" name="hunger-level" value="high">
+              <label for="hunger-level">High</label>
+            </form>
+        </section>
+    </body>
+</html>
+

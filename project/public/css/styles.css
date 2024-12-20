@@ -1,0 +1,58 @@
+/* Basic Page Styling */
+body {
+    font-family: 'Ubuntu', sans-serif; /* Font related to South Africa */
+    margin: 0;
+}
+
+header {
+    background: #007749; /* Green from South African flag */
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero {
+    background-color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+}
+
+#intro {
+    padding: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+main {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+#map-container {
+    width: 70%;
+    height: 400px;
+}
+
+#data-summary {
+    width: 30%;
+    background: #f9f9f9;
+    padding: 1em;
+}
+
+#filters {
+    padding: 1em;
+    background: #f9f9f9;
+}
+
+#charts-container {
+    padding: 1em;
+}

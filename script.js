@@ -1,7 +1,7 @@
 // Mapbox Access Token
 mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace!
 
-// Initialize Map
+// Initialide Map
 const map = new mapboxgl.Map({
     container: 'map-container',
     style: 'mapbox://styles/mapbox/streets-v11',

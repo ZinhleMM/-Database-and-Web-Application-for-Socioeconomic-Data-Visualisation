@@ -1,11 +1,11 @@
-// Mapbox Access Token (Replace with your own)
+// Mapbox Access Token
 mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace!
 
 // Initialize Map
 const map = new mapboxgl.Map({
     container: 'map-container',
     style: 'mapbox://styles/mapbox/streets-v11',
-    center: [22.9375, -30.5595], // Centered on South Africa
+    center: [22.9375, -30.5595], // Centred on South Africa
     zoom: 5
 });
 
